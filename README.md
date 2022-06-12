@@ -1,4 +1,4 @@
-# ASL Tranlation With Tensorflowjs
+# ASL Translation With Tensorflowjs
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/arjunpathy/pen/LYQXmqx](https://codepen.io/arjunpathy/pen/LYQXmqx).
 
