@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  /* border: 2px solid yellow; */
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+#webcam-container{
+  margin-top: 3%;
+}
+
+#order_fdbk_btn{
+  display: none;
+}
+#order_fdbk_btn  span{
+  color: white;
+}
+.container{
+  background-color: #006241;
+  text-align: center;
+}
+body, .welcome{
+  color: white !important;
+}
+.order h3{
+  color: #E6A513;
+}
+.order div{
+  padding-left: 5%;
+}
+.username{
+  font-size: medium;
+  font-weight: 400;
+  float: left;
+}
+#spinner, #retry-btn, #rating, #rating-msg{
+  display: none;
+}
+.uname-box{
+padding-left: 30%;
+}
+#retry-btn{
+  float: left;
+  margin-left: 4%;
+}
+.star-ratings {
+   object-fit: contain;
+   max-height : 40px
+  }
+  
+  
+  
