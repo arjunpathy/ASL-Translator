@@ -1,3 +1,11 @@
+body {
+  background-image: url("./images/sblogo.png");
+  background-repeat: repeat-x repeat-y;
+  background-size: 10% 10%;
+  background-blend-mode: color;
+}
+
+
 .flex-container {
   display: flex;
 }
@@ -12,6 +20,8 @@
 } 
 #webcam-container{
   margin-top: 3%;
+  float: left;
+  margin-left: 31%;
 }
 
 #order_fdbk_btn{
@@ -29,6 +39,9 @@ body, .welcome{
 }
 .order h3{
   color: #E6A513;
+  width: fit-content;
+  margin-left: 35%;
+  display: none;
 }
 .order div{
   padding-left: 5%;
@@ -38,8 +51,30 @@ body, .welcome{
   font-weight: 400;
   float: left;
 }
+.order-box{
+  margin-left: 7%;
+    width: 30%;
+    height: 72%;
+    float: left;
+    display: none;
+}
+.cup-name{
+  color: black;
+  position: relative;
+  top: 33%;
+}
+.cup{
+  object-fit: contain;
+    width: 100%;
+    height: 88%;
+}
 #spinner, #retry-btn, #rating, #rating-msg{
   display: none;
+}
+#rating{
+    width: fit-content;
+    margin-left: 33%;
+    padding: 5px;
 }
 .uname-box{
 padding-left: 30%;
@@ -51,6 +86,11 @@ padding-left: 30%;
 .star-ratings {
    object-fit: contain;
    max-height : 40px
+  }
+  .cup-name  {
+    width: 100%;
+    font: 364 14px/125% 'Grand Hotel', Helvetica, Sans-serif;
+    color: #333;
   }
   
   
